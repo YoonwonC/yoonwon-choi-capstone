@@ -1,5 +1,4 @@
-# Project Title
-Budget Me
+# Budget Me
 
 ## Overview
 
@@ -39,6 +38,7 @@ Budget Me caters to anyone in need of budgeting assistance, accommodating divers
     - react
     - react-router
     - axios
+    - Victory(charting library)
 - Server libraries:
     - knex
     - express
@@ -47,7 +47,7 @@ Budget Me caters to anyone in need of budgeting assistance, accommodating divers
 ### APIs
 
 - No external APIs will be used for the first sprint
-- React Chart Library for charts (tbd)
+- React Chart Library for charts (Likely Victory)
 
 ### Sitemap
 
@@ -59,16 +59,16 @@ Budget Me caters to anyone in need of budgeting assistance, accommodating divers
 ### Mockups
 
 #### Home Page
-![](home.png)
+![view home here](home.png)
 
 #### Register Page
-![](register.png)
+![view register here](register.png)
 
 #### Login Page
-![](login.png)
+![view login here](login.png)
 
 #### Budget Page
-![](budget.png)
+![view budget here](budget.png)
 
 
 ### Data
@@ -256,6 +256,7 @@ Response:
     - Time range filtering
 - Different chart types on view page
 - Email notification
+- Custom income and expense categories
 - PDF reporting on demand
     - Download generated PDF
 - Goal setting
