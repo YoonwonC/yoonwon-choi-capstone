@@ -1,20 +1,22 @@
-import './App.scss';
+import "./App.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Signup from "./pages/Signup";
-import Login from "./pages/Login";
+import NotFound from "./pages/NotFound/NotFound";
+import Login from "./pages/Login/Login";
+import Signup from "./pages/Signup/Signup";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <main>
-      <Routes>
-      <Route path="/" element={<BudgetMe />} />
-      <Route path="/budgetme/signup" element={<Signup />} />
-      <Route path="/budgetme/Login" element={<Login />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+        <Routes>
+          {/* <Route path="/" element={<BudgetMe />} /> */}
+          <Route path="/budgetme/login" element={<Login />} />
+          <Route path="/budgetme/signup" element={<Signup />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </main>
       <Footer />
     </BrowserRouter>
