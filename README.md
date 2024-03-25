@@ -59,21 +59,21 @@ Budget Me caters to anyone in need of budgeting assistance, accommodating divers
 ### Mockups
 
 #### Home Page
-![view home here](home.png)
+![view home here](./frontend/src/assets/readmeImg/home.png)
 
 #### Register Page
-![view register here](register.png)
+![view register here](./frontend/src/assets/readmeImg/register.png)
 
 #### Login Page
-![view login here](login.png)
+![view login here](./frontend/src/assets/readmeImg/login.png)
 
 #### Budget Page
-![view budget here](budget.png)
+![view budget here](./frontend/src/assets/readmeImg/budget.png)
 
 
 ### Data
 
-![view the diagram here](sql-diagram.png)
+![view the diagram here](./frontend/src/assets/readmeImg/sql-diagram.png)
 
 ### Endpoints
 
