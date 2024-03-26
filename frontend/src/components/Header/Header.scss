@@ -1,0 +1,22 @@
+@use "../../styles/mixins" as *;
+
+.header {
+  &__container {
+    padding: 1rem;
+    display: flex;   
+    justify-content: center;
+    background-color: #fffcea;
+    @include desktop {
+      justify-content: flex-start;
+      padding: 1.5rem 4rem;
+    }
+  }
+  &__logo {
+display: flex;
+
+  }
+  &__logo-img {
+    width: 13rem;
+ 
+  }
+}

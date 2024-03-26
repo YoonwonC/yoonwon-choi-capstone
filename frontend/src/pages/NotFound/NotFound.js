@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 
 //error message if page not found
-export const NotFound = () => {
+function NotFound () {
     useEffect(() => {
         document.title = 'Page Not Found';
     }, []);
