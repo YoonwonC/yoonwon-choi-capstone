@@ -6,6 +6,7 @@ import BudgetMe from "./pages/BudgetMe/BudgetMe";
 import NotFound from "./pages/NotFound/NotFound";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
+import MyPage from "./pages/MyPage/MyPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<BudgetMe />} />
           <Route path="/budgetme/login" element={<Login />} />
           <Route path="/budgetme/signup" element={<Signup />} />
+          <Route path="/budgetme/:id" element={<MyPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
